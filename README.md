@@ -119,6 +119,7 @@ Types:
   - Ideal for frequent retrieval (big data analysis, content distribution, website hosting)
 - S3 Intelligent-Tiering
   - Automated tiering (after 30 days moves non frequent accesses objects from frequet tier to infrequent tier)
+  - Files with less than 128KB will not be automatically moved
   - Active and infrequently accessed data
   - Miliseconds access
   - Designed to optimize storage costs
